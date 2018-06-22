@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ListView
+        android:id="@+id/final_lvHoroscope"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="#b5b5b5"
+        android:dividerHeight="1dp"
+        android:listSelector="@drawable/conf_list_selector"
+        android:layout_above="@+id/final_llBottom" />
+
+    <LinearLayout
+        android:id="@+id/final_llBottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#111111"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/final_etDay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="70"
+            android:layout_margin="3dp"
+            android:hint="gbfdvdscsa"
+            android:textStyle="italic"
+            android:gravity="center_horizontal"
+            android:editable="false" />
+
+        <Button
+            android:id="@+id/final_btInput"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="30"
+            android:layout_marginTop="6dp"
+            android:text="hrrtr"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#eeeeee" />
+
+    </LinearLayout>
+
+</RelativeLayout>
